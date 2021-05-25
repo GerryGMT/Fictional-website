@@ -1,0 +1,14 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "description": "Landing page for example",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "author": "Gerry",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^6.0.0"
+    }
+}
